@@ -1,0 +1,21 @@
+POSTGRES_HOST=postgres
+
+POSTGRES_PORT=5432
+
+POSTGRES_DB=postgres
+
+POSTGRES_USER=postgres
+
+POSTGRES_PASSWORD=postgres
+
+DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres
+
+DJANGO_SECRET_KEY= django-insecure-m@q)kmes-irmp(6&m*4ya+d9irjlqv+89j&$mu_+^su2=kp4(*
+
+USE_DOCKER=yes
+
+DEBUG=True
+
+ADMIN_PATH=admin/
+
+

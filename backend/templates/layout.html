@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Backend</title>
+
+</head>
+<body>
+
+
+{% if user.is_authenticated %}
+{% include 'blok/common/inner_header.html' %}
+{% else %}
+{% include 'blok/common/header.html' %}
+{% endif %}
+
+{% block page_body %}{% endblock %}
+
+{% include 'blok/common/footer.html' %}
+
+{% csrf_token %}
+</body>
+</html>

@@ -1,0 +1,9 @@
+.idea
+/.idea/
+*.pyc
+__pycache__
+debug.log
+debug.txt
+media/
+cmd.txt
+*.pem
